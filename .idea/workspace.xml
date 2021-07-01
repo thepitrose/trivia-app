@@ -1,7 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cd64dbb-6d3d-4262-a529-8ccc428fc3bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trivia-app-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/MeirBD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/androidTest/java/com/example/myapplication2/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/BaseQuesActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/BaseTriviaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/BattleLobbyActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/CreatePersonalCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/EndSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/GameEventsListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/GameQuestionsListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/GameStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/GameType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/GetPersonalActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/InvitationToGameListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/MidGameStateData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/MultiGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/MultiGameAcceptGameListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/MultiGameTriviaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/MultiQuesActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/PersonalActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/Questionsmenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/RegisterActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/ScoresStateActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/UsersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/WaitForGameAcceptActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/addQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/adminlogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/getDataListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/seePresQuesActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/seeQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/java/com/example/myapplication2/showplayersdata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/drawable/background_styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/drawable/custom_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_add_question.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_adminlogin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_build_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_create_personal_category.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_end_session.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_game.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_game_type.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_get_personal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_personal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_questionsmenu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_register.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_see_pres_ques.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_see_question.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/activity_showplayersdata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/battle_loby.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/content_build_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/custom_title.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/doubleline_spinner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/mid_score_state.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/show.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/layout/wait_for_game_accept.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/app/src/test/java/com/example/myapplication2/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-app-main/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uj6RLtusb4A5YZwd8N4feKxz2A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="My_Application2.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cd64dbb-6d3d-4262-a529-8ccc428fc3bd" name="Default Changelist" comment="" />
+      <created>1625166643963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625166643963</updated>
+    </task>
+    <servers />
   </component>
 </project>
