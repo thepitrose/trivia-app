@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_styles"
+    android:layout_height="match_parent"
+    android:textColor="@color/black"
+    tools:context=".ScoresStateActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/battleLobyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Who would you like to compete against?"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/showpint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/playersDropdown"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="94dp" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:background="@drawable/custom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Let's play!" />
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

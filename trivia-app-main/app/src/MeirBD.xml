@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Category Name="MeirBirthday">
+    <Question>
+		<QuestionText>1 plus 1 is</QuestionText>
+		<RightAnswer>2</RightAnswer>
+		<WrongAnswer>3</WrongAnswer>
+		<WrongAnswer>PI</WrongAnswer>
+		<WrongAnswer>Infinity</WrongAnswer>
+	</Question>
+	<Question>
+		<QuestionText>1 Minus 1 is</QuestionText>
+		<RightAnswer>0</RightAnswer>
+		<WrongAnswer>Infinity minus 1</WrongAnswer>
+		<WrongAnswer>PI</WrongAnswer>
+		<WrongAnswer>2</WrongAnswer>
+	</Question>
+	<Question>
+		<QuestionText>Chelsea color is</QuestionText>
+		<RightAnswer>blue</RightAnswer>
+		<WrongAnswer>red</WrongAnswer>
+		<WrongAnswer>green</WrongAnswer>
+		<WrongAnswer>all above</WrongAnswer>
+	</Question>
+    
+</Category>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ScoresStateActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/battleLobyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Player 1 Name"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/showpint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/player1Score"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:gravity="center"
+        android:text="Player 2 Score"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/showpint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/player2Name"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:gravity="center"
+        android:text="Player 2 Name"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/showpint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/player2Score"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:gravity="center"
+        android:text="Player 2 Score"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/showpint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/endgameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back to main screen" />
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_styles"
+    tools:context=".EndSession">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+    <Button
+        android:id="@+id/logoutend"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="126dp"
+        android:text="logout"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showpint" />
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="313dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Total points from session"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/showpint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/newgame"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="126dp"
+        android:text="New Game"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoutend" />
+
+    <TextView
+        android:id="@+id/showpint"
+        android:layout_width="250dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="37dp"
+        android:gravity="center"
+        android:text="Loading data"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/logoutend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maintext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

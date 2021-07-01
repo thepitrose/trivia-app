@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_styles"
+    tools:context=".Questionsmenu">
+
+    <Button
+        android:id="@+id/Animals"
+        android:layout_width="198dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="107dp"
+        android:text="Animals"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Geography"
+        android:layout_width="198dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="107dp"
+        android:text="Geography"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Animals" />
+
+    <Button
+        android:id="@+id/Music"
+        android:layout_width="198dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="107dp"
+        android:text="Music"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Geography" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="198dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="107dp"
+        android:text="history"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Music" />
+
+    <Button
+        android:id="@+id/Celebrity"
+        android:layout_width="198dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="107dp"
+        android:text="Celebrity"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
